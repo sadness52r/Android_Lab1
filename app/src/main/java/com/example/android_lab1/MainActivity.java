@@ -4,20 +4,11 @@ import android.annotation.SuppressLint;
 import android.content.Intent;
 import android.os.Bundle;
 
-import androidx.activity.EdgeToEdge;
 import androidx.appcompat.app.AppCompatActivity;
 
-import android.view.View;
 import android.widget.Button;
 import android.widget.EditText;
 import android.widget.TextView;
-
-import androidx.activity.result.ActivityResultLauncher;
-import androidx.activity.result.contract.ActivityResultContracts;
-
-import androidx.core.graphics.Insets;
-import androidx.core.view.ViewCompat;
-import androidx.core.view.WindowInsetsCompat;
 
 
 public class MainActivity extends AppCompatActivity {
@@ -26,21 +17,6 @@ public class MainActivity extends AppCompatActivity {
     private TextView textViewResult;
     private Button bSendToAct2;
     private EditText editText;
-
-//    @SuppressLint("SetTextI18n")
-//    private ActivityResultLauncher<Intent> activity2ResultLauncher =
-//            registerForActivityResult(new ActivityResultContracts.StartActivityForResult(),
-//                    result -> {
-//                        if (result.getResultCode() == RESULT_OK) {
-//                            Intent data = result.getData();
-//                            if (data != null) {
-//                                String oldText = data.getStringExtra("oldText");
-//                                String newText = data.getStringExtra("newText");
-//
-//                                textViewResult.setText(oldText + " " + newText);
-//                            }
-//                        }
-//                    });
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {

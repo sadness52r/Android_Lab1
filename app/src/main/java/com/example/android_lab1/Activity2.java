@@ -3,14 +3,10 @@ package com.example.android_lab1;
 import android.os.Bundle;
 import android.content.Intent;
 
-import androidx.activity.EdgeToEdge;
 import androidx.appcompat.app.AppCompatActivity;
 import android.widget.Button;
 import android.widget.EditText;
 import android.widget.TextView;
-import androidx.core.graphics.Insets;
-import androidx.core.view.ViewCompat;
-import androidx.core.view.WindowInsetsCompat;
 
 public class Activity2 extends AppCompatActivity {
     private TextView textViewOld;
